@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Select throught the quick filter for daily standup!
 // @author       You
-// @match        https://*.atlassian.net/secure/RapidBoard.jspa*
+// @match        https://*.atlassian.net/secure/RapidBoard.jspa?rapidView=65&projectKey=AX*
 // @icon         https://www.google.com/s2/favicons?domain=atlassian.net
 // @grant        none
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
