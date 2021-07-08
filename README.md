@@ -1,4 +1,4 @@
-# jira_random_standup_selector
+# Jira Random Standup Selector
 Allows for a single button press to randomly select the next member during standup
 
 ## Installation
@@ -21,3 +21,11 @@ Allows for a single button press to randomly select the next member during stand
 Userscripts are set up to automatically update. You can check for updates from within the Greasemonkey or Tampermonkey menu, or click on the install link again to get the update.
 
 Each individual userscript's change log is contained on its individual wiki page.
+
+## Modifying
+
+This script was made for a private and specific Jira board. To change this for another board, modify these lines at the top:
+```
+// @namespace    https://*.atlassian.net
+// @match        https://*.atlassian.net/secure/RapidBoard.jspa?rapidView=65&projectKey=AX*
+```
